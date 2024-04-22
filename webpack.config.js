@@ -33,15 +33,23 @@ module.exports = {
     new CopyWebpackPlugin({
       patterns: [
           {
-              from: path.resolve(__dirname, 'public'), // Adjust the path as necessary
-              to: path.resolve(__dirname, 'dist/') // Target path inside dist
+              from: path.resolve(__dirname, 'src/assets/css'), // Adjust the path as necessary
+              to: path.resolve(__dirname, 'dist/css') // Target path inside dist
+          },
+          {
+              from: path.resolve(__dirname, 'src/assets/js'), // Adjust the path as necessary
+              to: path.resolve(__dirname, 'dist/js') // Target path inside dist
+          },
+          {
+              from: path.resolve(__dirname, 'src/components'), // Adjust the path as necessary
+              to: path.resolve(__dirname, 'dist/components') // Target path inside dist
           }
       ]
   })
   ],
   devServer: {
     static: {
-      directory: path.join(__dirname, 'public'),
+      directory: path.join(__dirname, 'src'),
     },
     open: true, // Automatically open the browser
   },
