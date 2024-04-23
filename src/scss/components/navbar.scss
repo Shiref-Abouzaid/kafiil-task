@@ -1,25 +1,40 @@
 .navbar {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+
     .avatar-container {
         height: 43px;
         width: 43px;
+
         img {
             border: 2px solid $mainColor;
             border-radius: 50%;
         }
     }
+
     .navbar-nav {
         gap: 24px;
+        @media (max-width: 576px) { 
+            gap: 0px;
+            padding-top: 1rem;
+        }
     }
+
     .nav-item {
-    a {
-        color: #C3C5C8 !important;
-        &.active {
-            color: $mainColor !important;
-        }
-        .icon-container {
-            height: 25px ;
-            margin-bottom: 8px;
+        a {
+            color: #C3C5C8 !important;
+
+            &.active {
+                color: $mainColor !important;
+            }
+
+            .icon-container {
+                height: 25px;
+                margin-bottom: 8px;
+            }
+
+            @media (max-width: 576px) {
+               display: flex;
+              }
         }
     }
-}
 }
