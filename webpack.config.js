@@ -41,6 +41,10 @@ module.exports = {
               to: path.resolve(__dirname, 'dist/js') // Target path inside dist
           },
           {
+              from: path.resolve(__dirname, 'src/assets/svg'), // Adjust the path as necessary
+              to: path.resolve(__dirname, 'dist/svg') // Target path inside dist
+          },
+          {
               from: path.resolve(__dirname, 'src/components'), // Adjust the path as necessary
               to: path.resolve(__dirname, 'dist/components') // Target path inside dist
           }

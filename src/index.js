@@ -1,1 +1,1 @@
-import './assets/js/is'
+import './assets/js/components'

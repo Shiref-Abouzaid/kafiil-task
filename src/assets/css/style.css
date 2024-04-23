@@ -1,3 +1,13 @@
+.unset {
+  all: unset;
+}
+
+.navbar .avatar-container {
+  height: 43px;
+  width: 43px;
+  border-radius: 50%;
+}
+
 body {
   font-family: "Arial", sans-serif;
   color: #333;
