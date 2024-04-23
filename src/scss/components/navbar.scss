@@ -2,7 +2,24 @@
     .avatar-container {
         height: 43px;
         width: 43px;
-        border-radius: 50%;
+        img {
+            border: 2px solid $mainColor;
+            border-radius: 50%;
+        }
     }
-
+    .navbar-nav {
+        gap: 24px;
+    }
+    .nav-item {
+    a {
+        color: #C3C5C8 !important;
+        &.active {
+            color: $mainColor !important;
+        }
+        .icon-container {
+            height: 25px ;
+            margin-bottom: 8px;
+        }
+    }
+}
 }

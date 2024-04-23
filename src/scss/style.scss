@@ -1,15 +1,16 @@
+@import './variables.scss';
 @import './global.scss';
 @import './components/navbar.scss';
-$primary-color: #333;
+
+
+
 
 body {
     font-family: 'Arial', sans-serif;
-    color: $primary-color;
+
     background-color: #f4f4f4;
 
-    .navbar {
-        background-color: darken($primary-color, 10%);
-    }
+
 }
 h1 {
     color:blue
