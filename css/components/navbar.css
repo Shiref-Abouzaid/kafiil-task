@@ -1,7 +1,7 @@
 /* Error: Undefined variable.
  *   ,
- * 9 |             border: 2px solid $mainColor;
- *   |                               ^^^^^^^^^^
+ * 9 |             border: 2px solid $primaryColor;
+ *   |                               ^^^^^^^^^^^^^
  *   '
  *   src\scss\components\navbar.scss 9:31  root stylesheet */
 
@@ -13,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 9 \2502              border: 2px solid $mainColor;\d\a   \2502                                ^^^^^^^^^^\a   \2575 \a   src\\scss\\components\\navbar.scss 9:31  root stylesheet";
+  content: "Error: Undefined variable.\a   \2577 \a 9 \2502              border: 2px solid $primaryColor;\a   \2502                                ^^^^^^^^^^^^^\a   \2575 \a   src\\scss\\components\\navbar.scss 9:31  root stylesheet";
 }
