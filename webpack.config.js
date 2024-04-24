@@ -34,19 +34,19 @@ module.exports = {
       patterns: [
           {
               from: path.resolve(__dirname, 'src/assets/css'), // Adjust the path as necessary
-              to: path.resolve(__dirname, 'dist/css') // Target path inside dist
+              to: path.resolve(__dirname, 'build/css') // Target path inside dist
           },
           {
               from: path.resolve(__dirname, 'src/assets/js'), // Adjust the path as necessary
-              to: path.resolve(__dirname, 'dist/js') // Target path inside dist
+              to: path.resolve(__dirname, 'build/js') // Target path inside dist
           },
           {
               from: path.resolve(__dirname, 'src/assets/svg'), // Adjust the path as necessary
-              to: path.resolve(__dirname, 'dist/svg') // Target path inside dist
+              to: path.resolve(__dirname, 'build/svg') // Target path inside dist
           },
           {
               from: path.resolve(__dirname, 'src/components'), // Adjust the path as necessary
-              to: path.resolve(__dirname, 'dist/components') // Target path inside dist
+              to: path.resolve(__dirname, 'build/components') // Target path inside dist
           }
       ]
   })
