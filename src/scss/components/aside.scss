@@ -23,5 +23,13 @@
             white-space: nowrap;
             font-weight: 500;
         }
+        &.transparent {
+            box-shadow: none !important;
+            background-color: transparent !important;
+            a {
+                color: #C3C5C8;
+                text-decoration: none;
+            }
+        }
     }
 }
