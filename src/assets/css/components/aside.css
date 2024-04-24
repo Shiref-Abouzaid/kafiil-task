@@ -30,5 +30,10 @@
   color: #C3C5C8;
   text-decoration: none;
 }
+.aside .box.transparent .card .card-title {
+  font-weight: 600;
+  font-size: 14px;
+  color: #1E1E1E;
+}
 
 /*# sourceMappingURL=aside.css.map */
