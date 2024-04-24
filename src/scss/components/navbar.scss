@@ -6,7 +6,7 @@
         width: 43px;
 
         img {
-            border: 2px solid $mainColor;
+            border: 2px solid $primaryColor;
             border-radius: 50%;
         }
     }
@@ -22,9 +22,10 @@
     .nav-item {
         a {
             color: #C3C5C8 !important;
-
+            font-weight: 500;
             &.active {
-                color: $mainColor !important;
+                color: $primaryColor !important;
+                font-weight: 600;
             }
 
             .icon-container {
