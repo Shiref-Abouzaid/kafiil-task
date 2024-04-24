@@ -18,5 +18,9 @@
 .aside .box p {
   font-weight: 500;
 }
+.aside .box .info-text {
+  white-space: nowrap;
+  font-weight: 500;
+}
 
 /*# sourceMappingURL=aside.css.map */
