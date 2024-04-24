@@ -33,17 +33,10 @@ module.exports = {
     new CopyWebpackPlugin({
       patterns: [
           {
-              from: path.resolve(__dirname, 'src/assets/css'), // Adjust the path as necessary
-              to: path.resolve(__dirname, 'build/css') // Target path inside dist
+              from: path.resolve(__dirname, 'src/assets'), // Adjust the path as necessary
+              to: path.resolve(__dirname, 'build/assets') // Target path inside dist
           },
-          {
-              from: path.resolve(__dirname, 'src/assets/js'), // Adjust the path as necessary
-              to: path.resolve(__dirname, 'build/js') // Target path inside dist
-          },
-          {
-              from: path.resolve(__dirname, 'src/assets/svg'), // Adjust the path as necessary
-              to: path.resolve(__dirname, 'build/svg') // Target path inside dist
-          },
+
           {
               from: path.resolve(__dirname, 'src/components'), // Adjust the path as necessary
               to: path.resolve(__dirname, 'build/components') // Target path inside dist
