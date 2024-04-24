@@ -31,10 +31,20 @@
                 text-decoration: none;
             }
             .card {
+                border: none;
+                background-color: #FFF;
+                border-radius: 15px;
+                .card-img {
+                    height: 100%;
+                    object-fit: cover;
+                }
                 .card-title {
                     font-weight: 600;
                     font-size: 14px;
                     color: #1E1E1E;
+                }
+                .card-body {
+                    font-size: 13px;
                 }
             }
         }
