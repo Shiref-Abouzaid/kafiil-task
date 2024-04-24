@@ -73,11 +73,20 @@
   white-space: nowrap;
   font-weight: 500;
 }
+.aside .box.transparent {
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+.aside .box.transparent a {
+  color: #C3C5C8;
+  text-decoration: none;
+}
 
 body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  font-weight: 500;
   background-color: #fdfdfd;
 }
 

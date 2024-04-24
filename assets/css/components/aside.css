@@ -22,5 +22,13 @@
   white-space: nowrap;
   font-weight: 500;
 }
+.aside .box.transparent {
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+.aside .box.transparent a {
+  color: #C3C5C8;
+  text-decoration: none;
+}
 
 /*# sourceMappingURL=aside.css.map */
