@@ -99,16 +99,20 @@
   font-size: 13px;
 }
 
+.breadcrumb {
+  color: #8692A6;
+  font-size: 18px;
+}
+.breadcrumb .breadcrumb-item::before {
+  color: #8692A6 !important;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-weight: 500;
   background-color: #fdfdfd;
-}
-
-h1 {
-  color: blue;
 }
 
 /*# sourceMappingURL=style.css.map */
