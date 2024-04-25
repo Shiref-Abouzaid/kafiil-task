@@ -1,38 +1,17 @@
-.home-page h1 {
-  font-size: 24px;
-  font-weight: 600;
-}
-.home-page .carousel .carousel-control-prev {
-  transform: translateX(-76px);
-  opacity: 1;
-}
-.home-page .carousel .carousel-control-prev .carousel-control-prev-icon {
-  background-color: #FFF;
-  border-radius: 50%;
-  height: 48px;
-  width: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0px 3px 3px 1px rgba(32, 32, 32, 0.0509803922);
-}
-.home-page .carousel .carousel-control-prev .carousel-control-prev-icon img {
-  transform: rotateZ(180deg);
-}
-.home-page .carousel .carousel-control-next {
-  transform: translateX(76px);
-  opacity: 1;
-}
-.home-page .carousel .carousel-control-next .carousel-control-next-icon {
-  background-color: #FFF;
-  opacity: 1;
-  border-radius: 50%;
-  height: 48px;
-  width: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0px 3px 3px 1px rgba(32, 32, 32, 0.0509803922);
-}
+/* Error: Undefined variable.
+ *    ,
+ * 65 |             background-color: $primaryColorLight;
+ *    |                               ^^^^^^^^^^^^^^^^^^
+ *    '
+ *   src\assets\scss\pages\home.scss 65:31  root stylesheet */
 
-/*# sourceMappingURL=home.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 65 \2502              background-color: $primaryColorLight;\d\a    \2502                                ^^^^^^^^^^^^^^^^^^\a    \2575 \a   src\\assets\\scss\\pages\\home.scss 65:31  root stylesheet";
+}
