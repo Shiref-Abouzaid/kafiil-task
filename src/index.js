@@ -1,1 +1,5 @@
-import './assets/js/homeLoader'
+import './assets/js/homeLoader';
+
+$(document).ready(function () {
+    $('.carousel').carousel()
+})
