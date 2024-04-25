@@ -1,0 +1,18 @@
+.unset {
+    all: unset;
+}
+.text-primary {
+    color: $primaryColor;
+}
+.btn-primary {
+    background-color: $primaryColor !important; /* Sets the background to red */
+    border-color: $primaryColor !important; /* Sets the border color to match */
+}
+
+.text-grey {
+    color: #696F79;
+}
+
+.white-space-nowrap {
+    white-space: nowrap;
+}

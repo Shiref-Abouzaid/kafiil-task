@@ -1,0 +1,52 @@
+.aside {
+    .box {
+        box-shadow: 0px 3px 40px -5px #20202012;
+        background-color: #FFF;
+        border-radius: 8px;
+        .box-title {
+            font-size: 16px;
+            color: black;
+            font-weight: 600;
+        }
+        .location { 
+            color: #8692A6;
+            font-weight: 400;
+        }
+
+        .rate {
+            color: #555;
+        }
+        p {
+            font-weight: 500;
+        }
+        .info-text {
+            white-space: nowrap;
+            font-weight: 500;
+        }
+        &.transparent {
+            box-shadow: none !important;
+            background-color: transparent !important;
+            a {
+                color: #C3C5C8;
+                text-decoration: none;
+            }
+            .card {
+                border: none;
+                background-color: #FFF;
+                border-radius: 15px;
+                .card-img {
+                    height: 100%;
+                    object-fit: cover;
+                }
+                .card-title {
+                    font-weight: 600;
+                    font-size: 14px;
+                    color: #1E1E1E;
+                }
+                .card-body {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
