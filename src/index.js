@@ -1,1 +1,1 @@
-import './assets/js/components'
+import './assets/js/homeLoader'

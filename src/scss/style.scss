@@ -2,7 +2,7 @@
 @import './global.scss';
 @import './components/navbar.scss';
 @import './components/aside.scss';
-
+@import './components/breadcrumb.scss';
 
 body {
     font-family: "Montserrat", sans-serif;
@@ -10,9 +10,5 @@ body {
     font-style: normal;
     font-weight: 500;
     background-color: #fdfdfd;
-
-
 }
-h1 {
-    color:blue
-}
+

@@ -1,0 +1,9 @@
+.breadcrumb {
+  color: #8692A6;
+  font-size: 18px;
+}
+.breadcrumb .breadcrumb-item::before {
+  color: #8692A6 !important;
+}
+
+/*# sourceMappingURL=breadcrumb.css.map */
