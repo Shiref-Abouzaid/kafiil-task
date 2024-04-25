@@ -40,6 +40,11 @@ module.exports = {
           {
               from: path.resolve(__dirname, 'src/components'), // Adjust the path as necessary
               to: path.resolve(__dirname, 'build/components') // Target path inside dist
+          },
+
+          {
+              from: path.resolve(__dirname, 'src/pages'), // Adjust the path as necessary
+              to: path.resolve(__dirname, 'build/pages') // Target path inside dist
           }
       ]
   })
