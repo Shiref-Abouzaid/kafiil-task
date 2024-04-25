@@ -3,41 +3,46 @@
         font-size: 24px;
         font-weight: 600;
     }
+
     .carousel {
-      .carousel-control-prev {
-        transform: translateX(-76px);
-        opacity: 1;
-        .carousel-control-prev-icon {
-            background-color: #FFF;
-            border-radius: 50%;
-            height: 48px;
-            width: 48px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0px 3px 3px 1px #2020200D;
-            img {
-                transform: rotateZ(180deg)
+        .carousel-control-prev {
+            transform: translateX(-76px);
+            opacity: 1;
+
+            .carousel-control-prev-icon {
+                background-color: #FFF;
+                border-radius: 50%;
+                height: 48px;
+                width: 48px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                box-shadow: 0px 3px 3px 1px #2020200D;
+
+                img {
+                    transform: rotateZ(180deg)
+                }
+            }
+
+        }
+
+        .carousel-control-next {
+            transform: translateX(76px);
+            opacity: 1;
+
+            .carousel-control-next-icon {
+                background-color: #FFF;
+                opacity: 1;
+                border-radius: 50%;
+                height: 48px;
+                width: 48px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                box-shadow: 0px 3px 3px 1px #2020200D;
+
             }
         }
-
-      }
-      .carousel-control-next{
-        transform: translateX(76px);
-        opacity: 1;
-        .carousel-control-next-icon {
-            background-color: #FFF;
-            opacity: 1;
-            border-radius: 50%;
-            height: 48px;
-            width: 48px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0px 3px 3px 1px #2020200D;
-
-        }
-    }
     }
 
     h2 {
@@ -45,6 +50,7 @@
         font-weight: 600;
         color: #000;
     }
+
     .description {
         background-color: #FFF;
         border-radius: 15px;
@@ -54,25 +60,73 @@
         background-color: #FFF;
         box-shadow: 0px 3px 40px -5px #20202012;
 
-        transition: 0.3s;
-      
-        border-radius: 5px;
-        padding: 15px;
-        margin: auto;
-  
-        .money-button, .time-button {
-            all:unset;
-            background-color: $primaryColorLight;
-            color: $primaryColor !important;
-           padding: 10px 5px;
-            border-radius: 5px;
-            cursor: pointer;
-          }
-        
- 
-      }
+
+        border-radius: 15px;
 
     
+        p {
+            font-size: 16px;
+            font-weight: 500;
+        }
+        .money-button,
+        .time-button {
+            all: unset;
+            background-color: $primaryColorLight;
+            color: $primaryColor !important;
+            padding: 10px 5px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
 
-  
+        .round {
+            position: relative;
+            width:55px
+        }
+
+        .round label {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 50%;
+            cursor: pointer;
+            height: 28px;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 28px;
+        }
+
+        .round label:after {
+            border: 2px solid #fff;
+            border-top: none;
+            border-right: none;
+            content: "";
+            height: 6px;
+            left: 7px;
+            opacity: 0;
+            position: absolute;
+            top: 8px;
+            transform: rotate(-45deg);
+            width: 12px;
+        }
+
+        .round input[type="checkbox"] {
+            visibility: hidden;
+        }
+
+        .round input[type="checkbox"]:checked+label {
+            background-color: $primaryColor;
+            border-color: $primaryColor;
+        }
+
+        .round input[type="checkbox"]:checked+label:after {
+            opacity: 1;
+        }
+
+
+
+    }
+
+
+
+
 }

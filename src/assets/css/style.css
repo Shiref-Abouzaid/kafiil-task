@@ -23,6 +23,10 @@
   color: #C3C5C8;
 }
 
+.text-grey-800 {
+  color: #333;
+}
+
 .navbar {
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
 }
@@ -189,18 +193,58 @@
 .home-page .add-ons-card {
   background-color: #FFF;
   box-shadow: 0px 3px 40px -5px rgba(32, 32, 32, 0.0705882353);
-  transition: 0.3s;
-  border-radius: 5px;
-  padding: 15px;
-  margin: auto;
+  border-radius: 15px;
 }
-.home-page .add-ons-card .money-button, .home-page .add-ons-card .time-button {
+.home-page .add-ons-card p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.home-page .add-ons-card .money-button,
+.home-page .add-ons-card .time-button {
   all: unset;
   background-color: #E9F9F1;
   color: #1DBF73 !important;
   padding: 10px 5px;
   border-radius: 5px;
   cursor: pointer;
+}
+.home-page .add-ons-card .round {
+  position: relative;
+  width: 55px;
+}
+.home-page .add-ons-card .round label {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 28px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 28px;
+}
+.home-page .add-ons-card .round label:after {
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+  content: "";
+  height: 6px;
+  left: 7px;
+  opacity: 0;
+  position: absolute;
+  top: 8px;
+  transform: rotate(-45deg);
+  width: 12px;
+}
+.home-page .add-ons-card .round input[type=checkbox] {
+  visibility: hidden;
+}
+.home-page .add-ons-card .round input[type=checkbox]:checked + label {
+  background-color: #1DBF73;
+  border-color: #1DBF73;
+}
+.home-page .add-ons-card .round input[type=checkbox]:checked + label:after {
+  opacity: 1;
 }
 
 body {
