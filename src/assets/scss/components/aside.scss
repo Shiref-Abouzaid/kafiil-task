@@ -3,6 +3,29 @@
         box-shadow: 0px 3px 40px -5px #20202012;
         background-color: #FFF;
         border-radius: 8px;
+        .img-seller {
+            position: relative;
+            width: 45px;
+            margin: auto;
+            img {
+                max-width: 100%;
+                object-fit: cover;
+                width: 45px;
+                height: 45px;
+                border-radius: 50%;
+            }
+            .isActive {
+                position:absolute;
+                height: 10px;
+                width: 10px;
+                background-color: $primaryColor;
+                border-radius: 50%;
+                bottom: 1px;
+                right: 1px;
+                border: 1px solid #FFF;
+            }
+
+        }
         .box-title {
             font-size: 16px;
             color: black;
