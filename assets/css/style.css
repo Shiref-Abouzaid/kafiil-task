@@ -11,6 +11,15 @@
   border-color: #1DBF73 !important; /* Sets the border color to match */
 }
 
+.btn-secondary {
+  background-color: #F6F6F6 !important;
+  border-color: #F6F6F6 !important;
+  color: #000;
+}
+.btn-secondary:hover {
+  color: #000;
+}
+
 .text-grey-500 {
   color: #696F79;
 }
@@ -25,6 +34,10 @@
 
 .text-grey-800 {
   color: #333;
+}
+
+.bg-gray-50 {
+  background-color: #F6F6F6;
 }
 
 .navbar {
@@ -153,6 +166,11 @@
   transform: translateX(-76px);
   opacity: 1;
 }
+@media (max-width: 576px) {
+  .home-page .carousel .carousel-control-prev {
+    transform: translate(0);
+  }
+}
 .home-page .carousel .carousel-control-prev .carousel-control-prev-icon {
   background-color: #FFF;
   border-radius: 50%;
@@ -166,9 +184,23 @@
 .home-page .carousel .carousel-control-prev .carousel-control-prev-icon img {
   transform: rotateZ(180deg);
 }
+@media (max-width: 576px) {
+  .home-page .carousel .carousel-control-prev .carousel-control-prev-icon {
+    height: 25px;
+    width: 25px;
+  }
+  .home-page .carousel .carousel-control-prev .carousel-control-prev-icon img {
+    width: 10px;
+  }
+}
 .home-page .carousel .carousel-control-next {
   transform: translateX(76px);
   opacity: 1;
+}
+@media (max-width: 576px) {
+  .home-page .carousel .carousel-control-next {
+    transform: translate(0);
+  }
 }
 .home-page .carousel .carousel-control-next .carousel-control-next-icon {
   background-color: #FFF;
@@ -180,6 +212,15 @@
   align-items: center;
   justify-content: center;
   box-shadow: 0px 3px 3px 1px rgba(32, 32, 32, 0.0509803922);
+}
+@media (max-width: 576px) {
+  .home-page .carousel .carousel-control-next .carousel-control-next-icon {
+    height: 25px;
+    width: 25px;
+  }
+  .home-page .carousel .carousel-control-next .carousel-control-next-icon img {
+    width: 10px;
+  }
 }
 .home-page h2 {
   font-size: 24px;
@@ -245,6 +286,35 @@
 }
 .home-page .add-ons-card .round input[type=checkbox]:checked + label:after {
   opacity: 1;
+}
+.home-page .purchase-box {
+  border-radius: 15px;
+}
+.home-page .purchase-box .btn {
+  min-width: 185px;
+  min-height: 44px;
+  font-weight: 600;
+}
+@media (max-width: 576px) {
+  .home-page .purchase-box .btn {
+    min-width: 100px;
+  }
+}
+.home-page .calculator-container {
+  width: 200px;
+}
+.home-page .calculator-container button {
+  all: unset;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  box-shadow: 0px 2px 3px 0px rgba(186, 181, 181, 0.2);
+  text-align: center;
+  cursor: pointer;
+  background-color: #FFF;
+}
+.home-page .gery-box {
+  border-radius: 8px;
 }
 
 body {

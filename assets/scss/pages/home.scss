@@ -8,7 +8,10 @@
         .carousel-control-prev {
             transform: translateX(-76px);
             opacity: 1;
-
+            @media (max-width: 576px) { 
+                transform: translate(0);
+            }
+            
             .carousel-control-prev-icon {
                 background-color: #FFF;
                 border-radius: 50%;
@@ -18,9 +21,15 @@
                 align-items: center;
                 justify-content: center;
                 box-shadow: 0px 3px 3px 1px #2020200D;
-
                 img {
                     transform: rotateZ(180deg)
+                }
+                @media (max-width: 576px) { 
+                    height: 25px;
+                    width: 25px;
+                    img {
+                        width: 10px;
+                    }
                 }
             }
 
@@ -29,7 +38,9 @@
         .carousel-control-next {
             transform: translateX(76px);
             opacity: 1;
-
+            @media (max-width: 576px) { 
+                transform: translate(0);
+            }
             .carousel-control-next-icon {
                 background-color: #FFF;
                 opacity: 1;
@@ -40,7 +51,13 @@
                 align-items: center;
                 justify-content: center;
                 box-shadow: 0px 3px 3px 1px #2020200D;
-
+                @media (max-width: 576px) { 
+                    height: 25px;
+                    width: 25px;
+                    img {
+                        width: 10px;
+                    }
+                }
             }
         }
     }
@@ -63,11 +80,12 @@
 
         border-radius: 15px;
 
-    
+
         p {
             font-size: 16px;
             font-weight: 500;
         }
+
         .money-button,
         .time-button {
             all: unset;
@@ -80,7 +98,7 @@
 
         .round {
             position: relative;
-            width:55px
+            width: 55px
         }
 
         .round label {
@@ -127,6 +145,31 @@
     }
 
 
+    .purchase-box  {
+        border-radius: 15px;
+        .btn {
+            min-width: 185px;
+            min-height: 44px;
+            font-weight: 600;
+            @media (max-width: 576px) { 
+                min-width: 100px;
+            }
+        }
+    }
+    .calculator-container {
+        width: 200px;
 
+        button {
+            all: unset;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            box-shadow: 0px 2px 3px 0px #BAB5B533;
+            text-align: center;
+            cursor: pointer;
+            background-color: #FFF;
 
+        }
+    }
+    .gery-box {border-radius: 8px;}
 }
