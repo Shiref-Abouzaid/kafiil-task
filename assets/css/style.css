@@ -119,6 +119,16 @@
   font-size: 24px;
   font-weight: 600;
 }
+.home-page .carousel .carousel-control-prev {
+  transform: translateX(-60px);
+}
+.home-page .carousel .carousel-control-prev .carousel-control-prev-icon {
+  background-color: #FFF;
+  border-radius: 50%;
+}
+.home-page .carousel .carousel-control-next {
+  transform: translateX(60px);
+}
 
 body {
   font-family: "Montserrat", sans-serif;
