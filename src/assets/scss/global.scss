@@ -9,6 +9,15 @@
     border-color: $primaryColor !important; /* Sets the border color to match */
 }
 
+.btn-secondary {
+    background-color: #F6F6F6 !important;
+    border-color: #F6F6F6 !important;
+    color: #000;
+    &:hover {
+        color: #000;
+    }
+}
+
 .text-grey-500 {
     color: #696F79;
 }
@@ -23,4 +32,8 @@
 
 .text-grey-800 {
     color: #333;
+}
+
+.bg-gray-50 {
+    background-color: #F6F6F6;
 }
