@@ -7,7 +7,7 @@
   "scripts": {
     "start": "webpack-dev-server --open --mode development",
     "build": "webpack --mode production",
-    "scss": "sass src/scss:src/assets/css --watch",
+    "scss": "sass src/assets/scss:src/assets/css --watch",
     "deploy": "gh-pages -d build"
   },
   "keywords": [],
