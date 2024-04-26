@@ -172,4 +172,17 @@
         }
     }
     .gery-box {border-radius: 8px;}
+
+    .rate-preogress {
+        font-size: 16px;
+        color: #000;
+        background-color: #FFF;
+    }
+
+    .progress-container {
+        width: 320px;
+        .progress {
+            height: 8px;
+        }
+    }
 }
