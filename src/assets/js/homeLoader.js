@@ -8,6 +8,7 @@ $(document).ready(function () {
         $('#breadcrumb').load('components/breadcrumb.html');
         $('#slider').load('pages/home/components/slider.html');
         $('#progressRate').load('pages/home/components/progress-rate.html');
+        $('#comments').load('pages/home/components/comments.html');
         
     });
 
