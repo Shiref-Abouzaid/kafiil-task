@@ -93,6 +93,13 @@
     display: flex;
   }
 }
+.navbar .dropdown-menu {
+  left: -270px;
+  width: 320px;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  border: none;
+}
 
 .aside .box {
   box-shadow: 0px 3px 40px -5px rgba(32, 32, 32, 0.0705882353);
