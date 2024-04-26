@@ -202,5 +202,20 @@
                 color: #000
             }
         }
+        textarea {
+            width: 100% !important;
+            resize:none;
+            border-radius: 8px;
+            &:focus {
+                box-shadow: none;
+                border-color: $primaryColor;
+            }
+        }
+        .btn {
+            min-width: 185px;
+            border-radius: 8px;
+            min-height: 48px;
+            font-size: 16px;
+        }
     }
 }
