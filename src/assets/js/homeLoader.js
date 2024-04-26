@@ -7,6 +7,7 @@ $(document).ready(function () {
     $("#main").load("pages/home/index.html", function () {
         $('#breadcrumb').load('components/breadcrumb.html');
         $('#slider').load('pages/home/components/slider.html');
+        $('#progressRate').load('pages/home/components/progress-rate.html');
         
     });
 
