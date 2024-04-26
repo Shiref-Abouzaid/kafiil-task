@@ -353,6 +353,21 @@
   font-weight: 700;
   color: #000;
 }
+.home-page .comments-container textarea {
+  width: 100% !important;
+  resize: none;
+  border-radius: 8px;
+}
+.home-page .comments-container textarea:focus {
+  box-shadow: none;
+  border-color: #1DBF73;
+}
+.home-page .comments-container .btn {
+  min-width: 185px;
+  border-radius: 8px;
+  min-height: 48px;
+  font-size: 16px;
+}
 
 body {
   font-family: "Montserrat", sans-serif;
