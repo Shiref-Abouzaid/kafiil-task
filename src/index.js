@@ -1,4 +1,4 @@
-import './assets/js/homeLoader';
+import './assets/js/vendorLoader';
 
 $(document).ready(function () {
    

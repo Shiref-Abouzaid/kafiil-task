@@ -236,6 +236,7 @@
   border: none;
   background-color: #FFF;
   border-radius: 15px;
+  box-shadow: 0px 3px 40px -5px rgba(32, 32, 32, 0.0705882353);
 }
 .aside .box.transparent .card .card-img {
   height: 100%;
@@ -268,25 +269,25 @@
   color: #8692A6 !important;
 }
 
-.home-page h1 {
+.vendor-page h1 {
   font-size: 24px;
   font-weight: 600;
 }
 @media (max-width: 576px) {
-  .home-page h1 {
+  .vendor-page h1 {
     font-size: 20px;
   }
 }
-.home-page .carousel .carousel-control-prev {
+.vendor-page .carousel .carousel-control-prev {
   transform: translateX(-76px);
   opacity: 1;
 }
 @media (max-width: 576px) {
-  .home-page .carousel .carousel-control-prev {
+  .vendor-page .carousel .carousel-control-prev {
     transform: translate(0);
   }
 }
-.home-page .carousel .carousel-control-prev .carousel-control-prev-icon {
+.vendor-page .carousel .carousel-control-prev .carousel-control-prev-icon {
   background-color: #FFF;
   border-radius: 50%;
   height: 48px;
@@ -296,28 +297,28 @@
   justify-content: center;
   box-shadow: 0px 3px 3px 1px rgba(32, 32, 32, 0.0509803922);
 }
-.home-page .carousel .carousel-control-prev .carousel-control-prev-icon img {
+.vendor-page .carousel .carousel-control-prev .carousel-control-prev-icon img {
   transform: rotateZ(180deg);
 }
 @media (max-width: 576px) {
-  .home-page .carousel .carousel-control-prev .carousel-control-prev-icon {
+  .vendor-page .carousel .carousel-control-prev .carousel-control-prev-icon {
     height: 25px;
     width: 25px;
   }
-  .home-page .carousel .carousel-control-prev .carousel-control-prev-icon img {
+  .vendor-page .carousel .carousel-control-prev .carousel-control-prev-icon img {
     width: 10px;
   }
 }
-.home-page .carousel .carousel-control-next {
+.vendor-page .carousel .carousel-control-next {
   transform: translateX(76px);
   opacity: 1;
 }
 @media (max-width: 576px) {
-  .home-page .carousel .carousel-control-next {
+  .vendor-page .carousel .carousel-control-next {
     transform: translate(0);
   }
 }
-.home-page .carousel .carousel-control-next .carousel-control-next-icon {
+.vendor-page .carousel .carousel-control-next .carousel-control-next-icon {
   background-color: #FFF;
   opacity: 1;
   border-radius: 50%;
@@ -329,58 +330,59 @@
   box-shadow: 0px 3px 3px 1px rgba(32, 32, 32, 0.0509803922);
 }
 @media (max-width: 576px) {
-  .home-page .carousel .carousel-control-next .carousel-control-next-icon {
+  .vendor-page .carousel .carousel-control-next .carousel-control-next-icon {
     height: 25px;
     width: 25px;
   }
-  .home-page .carousel .carousel-control-next .carousel-control-next-icon img {
+  .vendor-page .carousel .carousel-control-next .carousel-control-next-icon img {
     width: 10px;
   }
 }
-.home-page h2 {
+.vendor-page h2 {
   font-size: 24px;
   font-weight: 600;
   color: #000;
 }
 @media (max-width: 576px) {
-  .home-page h2 {
+  .vendor-page h2 {
     font-size: 18px;
   }
 }
-.home-page .description {
+.vendor-page .description {
   background-color: #FFF;
   border-radius: 15px;
   font-size: 16px;
+  box-shadow: 0px 3px 40px -5px rgba(32, 32, 32, 0.0705882353);
 }
 @media (max-width: 576px) {
-  .home-page .description {
+  .vendor-page .description {
     font-size: 14px;
   }
 }
 @media (max-width: 576px) {
-  .home-page .add-ons button {
+  .vendor-page .add-ons button {
     font-size: 14px;
   }
-  .home-page .add-ons button img {
+  .vendor-page .add-ons button img {
     width: 16px;
   }
 }
-.home-page .add-ons-card {
+.vendor-page .add-ons-card {
   background-color: #FFF;
   box-shadow: 0px 3px 40px -5px rgba(32, 32, 32, 0.0705882353);
   border-radius: 15px;
 }
-.home-page .add-ons-card .p {
+.vendor-page .add-ons-card .p {
   font-size: 16px;
   font-weight: 500;
 }
 @media (max-width: 576px) {
-  .home-page .add-ons-card .p {
+  .vendor-page .add-ons-card .p {
     font-size: 14px;
   }
 }
-.home-page .add-ons-card .money-button,
-.home-page .add-ons-card .time-button {
+.vendor-page .add-ons-card .money-button,
+.vendor-page .add-ons-card .time-button {
   all: unset;
   background-color: #E9F9F1;
   color: #1DBF73 !important;
@@ -389,17 +391,17 @@
   cursor: pointer;
 }
 @media (max-width: 576px) {
-  .home-page .add-ons-card .money-button,
-  .home-page .add-ons-card .time-button {
+  .vendor-page .add-ons-card .money-button,
+  .vendor-page .add-ons-card .time-button {
     font-size: 14px;
     margin-top: 14px;
   }
 }
-.home-page .add-ons-card .round {
+.vendor-page .add-ons-card .round {
   position: relative;
   width: 55px;
 }
-.home-page .add-ons-card .round label {
+.vendor-page .add-ons-card .round label {
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 50%;
@@ -410,7 +412,7 @@
   top: 0;
   width: 28px;
 }
-.home-page .add-ons-card .round label:after {
+.vendor-page .add-ons-card .round label:after {
   border: 2px solid #fff;
   border-top: none;
   border-right: none;
@@ -423,33 +425,34 @@
   transform: rotate(-45deg);
   width: 12px;
 }
-.home-page .add-ons-card .round input[type=checkbox] {
+.vendor-page .add-ons-card .round input[type=checkbox] {
   visibility: hidden;
 }
-.home-page .add-ons-card .round input[type=checkbox]:checked + label {
+.vendor-page .add-ons-card .round input[type=checkbox]:checked + label {
   background-color: #1DBF73;
   border-color: #1DBF73;
 }
-.home-page .add-ons-card .round input[type=checkbox]:checked + label:after {
+.vendor-page .add-ons-card .round input[type=checkbox]:checked + label:after {
   opacity: 1;
 }
-.home-page .purchase-box {
+.vendor-page .purchase-box {
   border-radius: 15px;
+  box-shadow: 0px 3px 40px -5px rgba(32, 32, 32, 0.0705882353);
 }
-.home-page .purchase-box .btn {
+.vendor-page .purchase-box .btn {
   min-width: 185px;
   min-height: 44px;
   font-weight: 600;
 }
 @media (max-width: 576px) {
-  .home-page .purchase-box .btn {
+  .vendor-page .purchase-box .btn {
     min-width: 100px;
   }
 }
-.home-page .calculator-container {
+.vendor-page .calculator-container {
   width: 200px;
 }
-.home-page .calculator-container button {
+.vendor-page .calculator-container button {
   all: unset;
   width: 28px;
   height: 28px;
@@ -459,45 +462,49 @@
   cursor: pointer;
   background-color: #FFF;
 }
-.home-page .gery-box {
+.vendor-page .gery-box {
   border-radius: 8px;
 }
-.home-page .rate-preogress {
+.vendor-page .rate-preogress {
   font-size: 16px;
   color: #000;
   background-color: #FFF;
+  box-shadow: 0px 3px 40px -5px rgba(32, 32, 32, 0.0705882353);
 }
-.home-page .progress-container {
+.vendor-page .progress-container {
   width: 320px;
 }
-.home-page .progress-container .progress {
+.vendor-page .progress-container .progress {
   height: 8px;
 }
-.home-page .comments-container .comment .img-container img {
+.vendor-page .comments-container {
+  box-shadow: 0px 3px 40px -5px rgba(32, 32, 32, 0.0705882353);
+}
+.vendor-page .comments-container .comment .img-container img {
   width: 42px;
   height: 42px;
   object-fit: cover;
   border-radius: 50%;
 }
-.home-page .comments-container .comment .name {
+.vendor-page .comments-container .comment .name {
   font-weight: 700;
   color: #000;
 }
 @media (max-width: 576px) {
-  .home-page .comments-container .comment {
+  .vendor-page .comments-container .comment {
     font-size: 14px;
   }
 }
-.home-page .comments-container textarea {
+.vendor-page .comments-container textarea {
   width: 100% !important;
   resize: none;
   border-radius: 8px;
 }
-.home-page .comments-container textarea:focus {
+.vendor-page .comments-container textarea:focus {
   box-shadow: none;
   border-color: #1DBF73;
 }
-.home-page .comments-container .btn {
+.vendor-page .comments-container .btn {
   min-width: 185px;
   border-radius: 8px;
   min-height: 48px;
@@ -556,7 +563,7 @@ body {
   font-optical-sizing: auto;
   font-style: normal;
   font-weight: 500;
-  background-color: #f0f0f0;
+  background-color: #fdfdfd;
 }
 
 .wrapper {
