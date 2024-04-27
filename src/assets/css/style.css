@@ -64,8 +64,20 @@
   font-weight: 500;
 }
 
+.font-600 {
+  font-weight: 600;
+}
+
 .text-danger {
   color: #F56342 !important;
+}
+
+.text-size-12 {
+  font-size: 12px;
+}
+
+.text-size-16 {
+  font-size: 16px;
 }
 
 .text-decoration-none {
@@ -511,10 +523,21 @@
 .suggested-services .card {
   border: none;
   border-radius: 15px;
+  box-shadow: 0px 3px 40px -5px rgba(32, 32, 32, 0.0705882353);
+}
+@media (max-width: 576px) {
+  .suggested-services .card {
+    margin-bottom: 1rem;
+  }
 }
 .suggested-services .card h2 {
   font-size: 16px;
   color: #000;
+}
+.suggested-services .card .profile-img img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
 }
 
 body {
