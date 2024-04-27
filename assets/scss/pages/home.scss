@@ -2,6 +2,9 @@
     h1 {
         font-size: 24px;
         font-weight: 600;
+        @media (max-width: 576px) { 
+            font-size:20px;
+        }
     }
 
     .carousel {
@@ -66,11 +69,25 @@
         font-size: 24px;
         font-weight: 600;
         color: #000;
+        @media (max-width: 576px) {
+            font-size: 18px;
+        }
+
     }
 
     .description {
         background-color: #FFF;
         border-radius: 15px;
+
+       
+    }
+
+    .white-box {
+        @media (max-width: 576px) {
+            margin-left: -10px;
+            margin-right: -10px;
+            border-radius: 0;
+        }
     }
 
     .add-ons-card {
@@ -84,6 +101,9 @@
         p {
             font-size: 16px;
             font-weight: 500;
+            @media (max-width: 576px) { 
+                font-size: 14px;
+            }
         }
 
         .money-button,

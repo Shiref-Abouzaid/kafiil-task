@@ -177,6 +177,11 @@
   color: #8692A6;
   font-size: 18px;
 }
+@media (max-width: 576px) {
+  .breadcrumb {
+    font-size: 14px;
+  }
+}
 .breadcrumb .breadcrumb-item::before {
   color: #8692A6 !important;
 }
@@ -184,6 +189,11 @@
 .home-page h1 {
   font-size: 24px;
   font-weight: 600;
+}
+@media (max-width: 576px) {
+  .home-page h1 {
+    font-size: 20px;
+  }
 }
 .home-page .carousel .carousel-control-prev {
   transform: translateX(-76px);
@@ -250,9 +260,21 @@
   font-weight: 600;
   color: #000;
 }
+@media (max-width: 576px) {
+  .home-page h2 {
+    font-size: 18px;
+  }
+}
 .home-page .description {
   background-color: #FFF;
   border-radius: 15px;
+}
+@media (max-width: 576px) {
+  .home-page .white-box {
+    margin-left: -10px;
+    margin-right: -10px;
+    border-radius: 0;
+  }
 }
 .home-page .add-ons-card {
   background-color: #FFF;
@@ -262,6 +284,11 @@
 .home-page .add-ons-card p {
   font-size: 16px;
   font-weight: 500;
+}
+@media (max-width: 576px) {
+  .home-page .add-ons-card p {
+    font-size: 14px;
+  }
 }
 .home-page .add-ons-card .money-button,
 .home-page .add-ons-card .time-button {
