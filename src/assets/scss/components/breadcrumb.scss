@@ -1,6 +1,9 @@
 .breadcrumb {
     color: #8692A6;
     font-size: 18px;
+    @media (max-width: 576px) { 
+        font-size: 14px;
+    }
     .breadcrumb-item::before {
         color: #8692A6 !important;
     }
