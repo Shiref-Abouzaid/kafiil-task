@@ -1,0 +1,11 @@
+.suggested-services h2 {
+  font-size: 24px;
+  color: #000;
+}
+@media (max-width: 576px) {
+  .suggested-services h2 {
+    font-size: 18px;
+  }
+}
+
+/*# sourceMappingURL=suggested-services.css.map */

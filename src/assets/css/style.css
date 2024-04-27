@@ -68,8 +68,17 @@
   color: #F56342 !important;
 }
 
+.text-decoration-none {
+  text-decoration: none;
+}
+
 .navbar {
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 576px) {
+  .navbar .logo-container img {
+    width: 100px;
+  }
 }
 .navbar .avatar-container {
   height: 43px;
@@ -217,6 +226,11 @@
 .aside .box.transparent .card .card-body {
   font-size: 13px;
 }
+@media (max-width: 576px) {
+  .aside .box.transparent .card {
+    border-radius: 0;
+  }
+}
 
 .breadcrumb {
   color: #8692A6;
@@ -318,13 +332,6 @@
 @media (max-width: 576px) {
   .home-page .description {
     font-size: 14px;
-  }
-}
-@media (max-width: 576px) {
-  .home-page .white-box {
-    margin-left: -10px;
-    margin-right: -10px;
-    border-radius: 0 !important;
   }
 }
 @media (max-width: 576px) {
@@ -474,6 +481,16 @@
   font-size: 16px;
 }
 
+.suggested-services h2 {
+  font-size: 24px;
+  color: #000;
+}
+@media (max-width: 576px) {
+  .suggested-services h2 {
+    font-size: 18px;
+  }
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -488,6 +505,14 @@ body {
 @media (max-width: 576px) {
   .wrapper {
     margin-top: 80px;
+  }
+}
+
+@media (max-width: 576px) {
+  .white-box {
+    margin-left: -10px;
+    margin-right: -10px;
+    border-radius: 0 !important;
   }
 }
 

@@ -6,6 +6,7 @@ $(document).ready(function () {
         })
     });
     $("#aside").load("components/layout/aside.html");
+    $("#suggested-services").load("components/layout/suggested-services.html");
 
     //load homepage
     $("#main").load("pages/home/index.html", function () {

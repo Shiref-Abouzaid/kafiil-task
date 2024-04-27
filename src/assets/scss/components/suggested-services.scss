@@ -1,0 +1,10 @@
+.suggested-services {
+    h2 {
+        font-size: 24px;
+        color: #000;
+        @media (max-width: 576px) { 
+            font-size: 18px;
+        }
+    }
+
+}

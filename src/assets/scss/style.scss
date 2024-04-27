@@ -4,6 +4,7 @@
 @import './components/aside.scss';
 @import './components/breadcrumb.scss';
 @import './pages/home.scss';
+@import './components/suggested-services.scss';
 
 body {
     font-family: "Montserrat", sans-serif;
@@ -20,3 +21,11 @@ body {
     }
 }
 
+
+.white-box {
+    @media (max-width: 576px) {
+        margin-left: -10px;
+        margin-right: -10px;
+        border-radius: 0 !important;
+    }
+}
