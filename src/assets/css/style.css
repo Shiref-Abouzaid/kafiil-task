@@ -268,12 +268,26 @@
 .home-page .description {
   background-color: #FFF;
   border-radius: 15px;
+  font-size: 16px;
+}
+@media (max-width: 576px) {
+  .home-page .description {
+    font-size: 14px;
+  }
 }
 @media (max-width: 576px) {
   .home-page .white-box {
     margin-left: -10px;
     margin-right: -10px;
-    border-radius: 0;
+    border-radius: 0 !important;
+  }
+}
+@media (max-width: 576px) {
+  .home-page .add-ons button {
+    font-size: 14px;
+  }
+  .home-page .add-ons button img {
+    width: 16px;
   }
 }
 .home-page .add-ons-card {
@@ -281,12 +295,12 @@
   box-shadow: 0px 3px 40px -5px rgba(32, 32, 32, 0.0705882353);
   border-radius: 15px;
 }
-.home-page .add-ons-card p {
+.home-page .add-ons-card .p {
   font-size: 16px;
   font-weight: 500;
 }
 @media (max-width: 576px) {
-  .home-page .add-ons-card p {
+  .home-page .add-ons-card .p {
     font-size: 14px;
   }
 }
@@ -298,6 +312,13 @@
   padding: 10px 5px;
   border-radius: 5px;
   cursor: pointer;
+}
+@media (max-width: 576px) {
+  .home-page .add-ons-card .money-button,
+  .home-page .add-ons-card .time-button {
+    font-size: 14px;
+    margin-top: 14px;
+  }
 }
 .home-page .add-ons-card .round {
   position: relative;
@@ -386,6 +407,11 @@
 .home-page .comments-container .comment .name {
   font-weight: 700;
   color: #000;
+}
+@media (max-width: 576px) {
+  .home-page .comments-container .comment {
+    font-size: 14px;
+  }
 }
 .home-page .comments-container textarea {
   width: 100% !important;

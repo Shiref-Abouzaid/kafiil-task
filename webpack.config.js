@@ -2,7 +2,9 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 module.exports = {
-  entry: './src/index.js',
+  entry:[
+    './src/index.js',
+  ],
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'build'),
@@ -53,7 +55,8 @@ module.exports = {
     static: {
       directory: path.join(__dirname, 'src'),
     },
-    open: true, // Automatically open the browser
+    host: '0.0.0.0', // Listen on all network interfaces
+    port: 8080,       // You can specify a port or use the default
+    open: true,       // Automatically open the browser
   },
-
 };
