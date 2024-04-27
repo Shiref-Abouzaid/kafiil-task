@@ -481,14 +481,40 @@
   font-size: 16px;
 }
 
-.suggested-services h2 {
+.suggested-services .title {
   font-size: 24px;
   color: #000;
 }
 @media (max-width: 576px) {
-  .suggested-services h2 {
+  .suggested-services .title {
     font-size: 18px;
   }
+}
+.suggested-services .img-container {
+  position: relative;
+}
+.suggested-services .img-container .like-container {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 42px;
+  width: 42px;
+  background-color: #FFF;
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.suggested-services .img-container .like-container img {
+  width: 25px;
+}
+.suggested-services .card {
+  border: none;
+  border-radius: 15px;
+}
+.suggested-services .card h2 {
+  font-size: 16px;
+  color: #000;
 }
 
 body {
