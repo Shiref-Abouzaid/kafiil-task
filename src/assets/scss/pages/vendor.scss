@@ -7,6 +7,13 @@
         }
     }
 
+    .head-container {
+        img {
+            @media (max-width: 576px) { 
+                width: 16px;
+            }
+        }
+    }
     .carousel {
         .carousel-control-prev {
             transform: translateX(-76px);
