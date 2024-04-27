@@ -5,10 +5,35 @@
         height: 43px;
         width: 43px;
 
-        img {
+        img.avatar {
             border: 2px solid $primaryColor;
             border-radius: 50%;
         }
+        hr {
+            border-color: #F6F6F6;
+            margin: 0;
+        }
+        .form-check-input:checked {
+            background-color: $primaryColor;
+            border-color: $primaryColor;
+        }
+        .form-check-input {
+            box-shadow: none;
+        }
+        .font-cairo {
+            font-family:'Cairo';
+        }
+    }
+    .nav-icons-container {
+        @media (max-width: 576px) { 
+            > button:nth-child(1) {
+                order: 2;
+            }
+            > button:nth-child(2) {
+                order: 3;
+            }
+        }
+ 
     }
 
     .navbar-nav {
@@ -44,7 +69,17 @@
         width: 320px;
         box-shadow: 0px 5px 15px 0px #00000033;
         border-radius: 8px;
-        border:none
+        border:none;
+        .profile-description {
+            font-size: 12px;
+        }
+        @media (max-width: 576px) {
+            position: relative;
+            left: 0;
+            right: 0;
+            top: 0;
+            // display: block;
+        }
     }
 }
 
