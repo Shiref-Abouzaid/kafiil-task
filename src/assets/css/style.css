@@ -96,6 +96,12 @@
   height: 43px;
   width: 43px;
 }
+@media (max-width: 576px) {
+  .navbar .avatar-container {
+    width: auto;
+    height: auto;
+  }
+}
 .navbar .avatar-container img.avatar {
   border: 2px solid #1DBF73;
   border-radius: 50%;
@@ -146,6 +152,7 @@
 @media (max-width: 576px) {
   .navbar .nav-item a {
     display: flex;
+    color: #696F79 !important;
   }
 }
 .navbar .dropdown-menu {
@@ -164,6 +171,11 @@
     left: 0;
     right: 0;
     top: 0;
+    display: block;
+    box-shadow: none;
+    background-color: transparent;
+    top: -20px;
+    left: -20px;
   }
 }
 

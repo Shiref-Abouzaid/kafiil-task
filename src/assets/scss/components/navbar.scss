@@ -11,7 +11,10 @@
     .avatar-container {
         height: 43px;
         width: 43px;
-
+        @media (max-width: 576px) { 
+            width: auto;
+            height: auto;
+        }
         img.avatar {
             border: 2px solid $primaryColor;
             border-radius: 50%;
@@ -67,6 +70,7 @@
 
             @media (max-width: 576px) {
                display: flex;
+               color: #696F79 !important;
               }
         }
     }
@@ -85,7 +89,12 @@
             left: 0;
             right: 0;
             top: 0;
-            // display: block;
+            display: block;
+            box-shadow: none;
+            background-color: transparent;
+            top: -20px;
+            left: -20px;
+        
         }
     }
 }
