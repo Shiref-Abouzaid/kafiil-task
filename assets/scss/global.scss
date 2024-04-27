@@ -62,8 +62,20 @@
     font-weight: 500;
 }
 
+.font-600 {
+    font-weight: 600;
+}
+
 .text-danger {
     color: $dangerColor !important;
+}
+
+.text-size-12 {
+    font-size: 12px;
+}
+
+.text-size-16 {
+    font-size: 16px;
 }
 
 .text-decoration-none {
