@@ -1,6 +1,10 @@
 $(document).ready(function () {
     // Load layout
-    $("#navbar").load("components/layout/navbar.html");
+    $("#navbar").load("components/layout/navbar.html",function() {
+        $('.dropdown-menu a').click(function(e) {
+            e.stopPropagation();
+        })
+    });
     $("#aside").load("components/layout/aside.html");
 
     //load homepage
