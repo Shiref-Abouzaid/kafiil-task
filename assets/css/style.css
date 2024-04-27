@@ -157,6 +157,7 @@
 .navbar .dropdown-menu {
   left: -270px;
   width: 320px;
+  top: 50px;
   box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
   border: none;
